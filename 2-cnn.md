@@ -1,10 +1,10 @@
-# Build CNN 
+# Build CNN
 
 - use Colab=> https:/colab.research.google.com => save in Google drive
 
     - can also use Jupyter Notebook IDE
 
-- Intro to CNNS => 
+- Intro to CNNS =>
 https://rubikscode.net/2018/02/26/introduction-to-convolutional-neural-networks/
 
 
@@ -13,12 +13,12 @@ https://rubikscode.net/2018/02/26/introduction-to-convolutional-neural-networks/
 
   - `Convolutional Layer` – Used to detect features
 
-      - filter => EX: detect edges => usually a multi-dimensional array of pixel values => 5x5x3 = height & width in pixels & depth
+      - `filter` => EX: detect edges => usually a multi-dimensional array of pixel values => 5x5x3 = height & width in pixels & depth
 
-      - process of applying (EX) 3×3 filter filter = convolution
+      - process of applying (EX) `3×3 filter filter` = `convolution`
 
-      - move the filter through the image  using smatrix multiplication => detect features
-  
+      - move the filter through the image using `matrix multiplication` => detect features
+
   - `Non-Linearity Layer` – Introducing non-linearity to the system
 
   - `Pooling (Downsampling) Layer` – Reduces the number of weights and controls overfitting

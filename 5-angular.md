@@ -1,14 +1,14 @@
 
 
 
-- user writes down something on the canvas => display the number that is written down 
+- user writes down something on the canvas => display the number that is written down
 
 
-- `app.component.ts`: 
+- `app.component.ts`:
 
   - import Tensorflowjs
 
-  - initialize application => load the model w/ `loadLayersModel` function from  TensorFlow.js
+  - initialize application => load the model w/ `loadLayersModel` function from TensorFlow.js
 
   - model summary is printed out in the console
 

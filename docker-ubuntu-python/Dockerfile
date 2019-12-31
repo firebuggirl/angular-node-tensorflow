@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Your Name "Juliette Tworsey"
+LABEL MAINTAINER="Juliette Tworsey"
 
 RUN apt-get update
 
@@ -30,4 +30,5 @@ CMD ["app.py"]
 
 # Run w/ bind mount
 
+# cd ./docker-ubuntu-python
 # docker run -d -it --name python-ubuntu-container -p 5000:5000 --mount type=bind,source="$(pwd)",target=/app python-ubuntu:v1
