@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ang-tensor"
+    }
+  },
+  "defaultProject": "ang-tensor",
+  "cli": {
+    "analytics": "274f5a1f-965b-473b-ab61-b43308fcbebd"
+  }
 }
